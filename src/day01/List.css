@@ -1,0 +1,14 @@
+ul.list {
+  border:1px solid #ededed;
+  background-color: lightblue;
+  margin: .5em 0;
+}
+ul.list > li {
+  line-height: 3em;
+  height: 3em;
+  padding: 0 1em;
+  border-bottom: 1px solid #ededed;
+}
+ul.list > li:last-child {
+  border-bottom: none;
+}
