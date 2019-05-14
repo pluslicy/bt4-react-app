@@ -4,6 +4,7 @@ import './List.css'
 function List(props){
   let {data} = props;
   return (
+    <div>{JSON.stringify(props)}
     <ul className="list">
       {
         data.map((item,index) => <li key={index}>{item}</li>)
@@ -14,6 +15,7 @@ function List(props){
         */
       }
     </ul>
+    </div>
   );
 }
 export default List;
