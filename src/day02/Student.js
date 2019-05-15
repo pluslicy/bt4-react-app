@@ -56,6 +56,7 @@ class Student extends React.Component {
     let {students,form} = this.state;
     return (
       <div className='student'>
+        <h2>学生管理</h2>
         {/* 按钮 */}
         <div>
           <button onClick={this.loadStudent.bind(this)}>加载数据</button>

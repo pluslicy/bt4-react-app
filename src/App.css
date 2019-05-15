@@ -1,3 +1,18 @@
-.App {
-  text-align: left;
+html,body,#root,.App {
+  height: 100%;
 }
+.App .nav {
+  float:left;
+  width:200px;
+  background-color: teal;
+  height: 100%;
+}
+.App .nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.App .content {
+  margin-left: 200px;
+  padding:1em;
+}
+
