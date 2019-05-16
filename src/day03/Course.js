@@ -67,7 +67,7 @@ class Course extends React.Component {
     $.get("http://localhost:7777/course/findById?id="+id,({status,message,data})=>{
       if(status === 200){
         // 将查询数据设置到state中
-        this.setState({ "form":data })
+        this.setState({ form:data })
       } else {alert (message)}
     })
   }
